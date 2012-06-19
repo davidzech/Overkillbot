@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Overkill Preferences</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.nighthawk.overkillbot</string>
+			<key>key</key>
+			<string>kAimbot</string>
+			<key>label</key>
+			<string>Aimbot</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.nighthawk.overkillbot</string>
+			<key>key</key>
+			<string>kEsp</string>
+			<key>label</key>
+			<string>ESP</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.nighthawk.overkillbot</string>
+			<key>key</key>
+			<string>kSpread</string>
+			<key>label</key>
+			<string>No Spread</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.nighthawk.overkillbot</string>
+			<key>key</key>
+			<string>kWall</string>
+			<key>label</key>
+			<string>Shoot Through Walls</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Overkill Aimbot Prefs</string>
+	<key>entry</key>
+	<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>label</key>
+		<string>Overkill Aimbot</string>
+	</dict>
+</dict>
+</plist>
